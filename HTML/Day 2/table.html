@@ -8,14 +8,15 @@
         table, td, th{
             border: 2px solid;
             border-collapse: collapse;
+            text-align: center;
         }
         th{
             color: antiquewhite;
             background-color: black;
         }
         td{
-            background-color: red;
-            color: blue;
+            background-color: rgb(207, 170, 170);
+            color: rgb(0, 0, 10);
         }
     </style>
 </head>
@@ -39,7 +40,7 @@
                 <td>Peter Parker</td>
                 <td>48</td>
                 <td>Spider Man</td>
-                <td>100</td>
+                <td rowspan="5">100</td>
                 <td>spiderman@avengers.com</td>
             </tr>
             <tr>
@@ -47,7 +48,7 @@
                 <td>Tony Stark</td>
                 <td>04</td>
                 <td>Iron Man</td>
-                <td>100</td>
+                <!-- <td>100</td> -->
                 <td>iamironman@avengers.com</td>
             </tr>
             <tr>
@@ -55,7 +56,7 @@
                 <td>Stephen Strange</td>
                 <td>38</td>
                 <td>Socerus Supreme</td>
-                <td>100</td>
+                <!-- <td>100</td> -->
                 <td>dr.strange@avengers.com</td>
             </tr>
             <tr>
@@ -63,7 +64,7 @@
                 <td>Dr. Bruce Banner</td>
                 <td>25</td>
                 <td>Hulk</td>
-                <td>100</td>
+                <!-- <td>100</td> -->
                 <td>hulk@avengers.com</td>
             </tr>
             <tr>
@@ -71,18 +72,18 @@
                 <td>Thor</td>
                 <td>18</td>
                 <td>God of Thunder</td>
-                <td>100</td>
+                <!-- <td>100</td> -->
                 <td>godofthunder@avengers.com</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td>Total Marks</td>
+                <td colspan="4"><b>Total Marks</b></td>
+                <!-- <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td>500</td>
-                <td></td>
+                <td></td> -->
+                <td colspan="2"><b>500</b></td>
+                <!-- <td></td> -->
             </tr>
         </tfoot>
     </table>
